@@ -7,3 +7,9 @@ body {
   main {
     flex: 1 0 auto;
   }
+
+  .card-login{  
+    display: block;
+  width: 50%;
+  height: auto;  
+  }
