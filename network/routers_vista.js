@@ -20,6 +20,22 @@ const routers = function(server){
         res.render('registrar-movientos-almacen')
     })
 
+    router.get('/mantenimiento-cc-obras', function(req, res){
+        res.render('mant-cc-obras')
+    })
+
+    router.get('/mantenimiento-partidas-sub-partidas', function(req, res){
+        res.render('mant-partidas-subpartidas')
+    })
+
+    router.get('/mantenimiento-area', function(req, res){
+        res.render('mant-area')
+    })
+
+    router.get('/mantenimiento-proveedores', function(req, res){
+        res.render('mant-proveedores')
+    })
+
     // -------------------------------------------- //
 
 
