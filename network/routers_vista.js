@@ -36,6 +36,11 @@ const routers = function(server){
         res.render('mant-proveedores')
     })
 
+    router.get('/centro-costos-obras', function(req, res){
+        res.render('centro-costos-obras')
+    })
+
+
     // -------------------------------------------- //
 
 

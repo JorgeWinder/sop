@@ -10,6 +10,11 @@ body {
 
   .card-login{  
     display: block;
-  width: 50%;
-  height: auto;  
+    width: 50%;
+    height: auto;  
+  
+  }
+
+  .btn{
+    background-color: aliceblue;
   }
