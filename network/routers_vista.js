@@ -40,6 +40,14 @@ const routers = function(server){
         res.render('centro-costos-obras')
     })
 
+    router.get('/detalle-centro-costos-obras', function(req, res){
+        res.render('detalle-centro-costos-obras')
+    })
+
+    router.get('/registro-orden-compra-servicios', function(req, res){
+        res.render('registro-orden-compra-servicios')
+    })
+
 
     // -------------------------------------------- //
 
