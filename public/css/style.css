@@ -7,3 +7,118 @@ body {
   main {
     flex: 1 0 auto;
   }
+
+  .card-login{  
+    display: block;
+    width: 50%;
+    height: auto;  
+  
+  }
+
+  .btn{
+    background-color: aliceblue;
+  }
+
+/* Estilo barra de progreso */
+ 
+.progress{
+  background-color: rgb(151, 179, 243);
+}
+
+.progress .indeterminate {
+background-color: #0034AC;
+} 
+
+/* Estilos para controles input */
+
+/* label color */
+.input-field label {
+  color:  rgb(63, 62, 62);
+  padding-left: 10px;
+  transform: translateY(15px);
+  height: auto !important;
+}
+
+.input-field.col label {
+    
+  height: auto !important;
+
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label , .input-field input[type=number]:focus + label , .input-field input[type=date]:focus + label, .input-field input[type=password]:focus + label {
+  color:  #0034AC !important;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+  
+  border: 2px solid #0034AC;
+  background-color: #0034AC;
+}
+
+
+/* Estilos personalizados de jwinder */
+
+.input-field-select > label {
+  color:  rgb(63, 62, 62);
+  padding-left: 10px;
+  transform: translateY(-25px) !important;
+  height: 60px !important;
+}
+
+.input-field-select > select {
+  height: 54px;
+
+}
+
+.input-field input[type=text] , .input-field input[type=number] , .input-field input[type=date], .input-field input[type=password] {
+  /* border-top-left-radius: 40% */
+  border-radius: 8px 8px 0 0;
+  height: 54px;
+  background-color: rgb(243, 243, 243);
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.input-field>label:not(.label-icon).active {
+  /* -webkit-transform: translateY(-14px) scale(0.8); */
+  transform: translateY(0px) scale(0.8);
+  /* -webkit-transform-origin: 0 0; */
+  transform-origin: 0 0;
+  
+}
+
+
+[type="checkbox"]+span:not(.lever):before, [type="checkbox"]:not(.filled-in)+span:not(.lever):after {
+  width:20px; 
+  height:20px;
+}
+
+/* ------------------------------------- */
+
+
+/* label underline focus color */
+.input-field input[type=text]:focus , .input-field input[type=number]:focus , .input-field input[type=date]:focus, .input-field input[type=password]:focus {
+  border-bottom: 1px solid #0034AC !important;
+  box-shadow: 0 1px 0 0 #0034AC !important;
+}
+/* valid color */
+.input-field input[type=text].valid , .input-field input[type=number].valid, .input-field input[type=password].valid {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+
+.input-field input[type=text].valid:focus , .input-field input[type=number].valid:focus, .input-field input[type=password].valid:focus , .input-field input[type=date].valid:focus {
+  border-bottom: 1px solid #0034AC !important;
+  box-shadow: 0 1px 0 0 #0034AC !important;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid , .input-field input[type=numbre].invalid, .input-field input[type=password].invalid {
+  border-bottom: 1px solid #0034AC !important;
+  box-shadow: 0 1px 0 0 #0034AC !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #0034AC;
+}
