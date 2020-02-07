@@ -1,21 +1,22 @@
 <div class="container" >
 
-    <div class="row" style="margin: 6% 0 5% 0;">    
+    <div class="row center cabecera">    
         <h4>Centro de Costos y Obras</h4>
     </div>
 
-    <div class="row">
-        <div class="input-field col s12 l5">
+    <div class="row center">
+        <div class="input-field col s11 l11">
             <input type="text" name="" id="nombre" value="{{Nombre}}">
             <label>Nombre de la Obra</label>
         </div>
     
-        <div class="input-field col s12 l7">
-            <a class="waves-effect waves-light btn-small" style="background-color: #3AAC00;"><i class="material-icons">search</i></a>
+        <div class="input-field col s1 l1">
+            <a class="btn-small"><i class="material-icons">search</i></a>
         </div>
     </div>
 
     <div class="row">
+        <div class="col s6 l6">
         <form action="#">
             <span>Estado</span>
             <p>
@@ -23,12 +24,14 @@
                 <input name="group1" type="radio" />
                 <span>Pendiente</span>
               </label>
-
+            </p>
+            <p>
               <label>
                 <input name="group1" type="radio" />
                 <span>Indefinido</span>
               </label>
-
+            </p>
+            <p>
               <label>
                 <input name="group1" type="radio" />
                 <span>Finalizado</span>
@@ -37,20 +40,18 @@
         </form>
     </div>
 
-    <div class="row">
-        <div class="col s12 l3">
+        <div class="col s12 l4">
             <span>Fecha Inicio</span>
             <input type="date" name="defaultDate" class="datepicker">
-        </div>
+        
     
-        <div class="col s12 l3">
             <span>Fecha Fin</span>
             <input type="date" name="defaultDate" class="datepicker">
         </div>
     </div>
 
     <div class="row">
-        <div class="col s12 l3">
+        <div class="col s12 l6">
             <label>Area</label>
                 <select class="browser-default">
                     <option value="" disabled selected>Elija un área</option>
@@ -61,23 +62,21 @@
         </div>
     
 
-        <div class="col s12 l3">
-            <label>Area</label>
+        <div class="col s12 l6">
+            <label>Tipo de Gasto</label>
                 <select class="browser-default">
                     <option value="" disabled selected>Elija un tipo de gasto</option>
                     <option value="1">Option 1</option>
                     <option value="2">Option 2</option>
                     <option value="3">Option 3</option>
                 </select>
-            </div>
         </div>
-
     </div>
 
-    <div class="row" style="text-align: center; margin-top: 2%;">
-            <a class="waves-effect waves-light btn" style="background-color: #3AAC00; margin-right: 5%;">Nuevo</a>
-            <a class="waves-effect waves-light btn" style="background-color: #3AAC00; margin-right: 5%;">Guardar</a>
-            <a class="waves-effect waves-light btn" style="background-color: #3AAC00; margin-right: 5%;">Modificar</a>
-            <a class="waves-effect waves-light btn" style="background-color: #3AAC00;">Eliminar</a>
+    <div class="row" style="text-align: center; margin-top: 8%;">
+            <a class="btn">Nuevo</a>
+            <a class="btn">Guardar</a>
+            <a class="btn">Modificar</a>
+            <a class="btn">Eliminar</a>
     </div>
 </div>
