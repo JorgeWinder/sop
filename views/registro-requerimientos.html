@@ -1,7 +1,14 @@
 <div class="container">
 
     <div class="row center cabecera">
-        <h4>Registro de Orden de Compra / Servicios</h4>
+        <h4>Registro de Requerimientos</h4>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s3 l3 right">
+            <input placeholder="" type="text" class="">
+            <label>Código Requermiento</label>
+        </div>
     </div>
 
     <div class="row">
@@ -9,47 +16,45 @@
             <label>Fecha Inicio</label>
             <input placeholder="" type="date" name="defaultDate" class="datepicker">
         </div>
-        
 
         <div class="input-field col s3 l3">
-            <input placeholder="" type="text" class="">
-            <label>Código Operación</label>
+            <label>Fecha Fin</label>
+            <input placeholder="" type="date" name="defaultDate" class="datepicker">
         </div>
 
-        <div class="input-field col s3 l3">
-            <input placeholder="" type="text" class="">
-            <label>Código Orden Compra</label>
-        </div>
-
-        <div class="input-field col s3 l3">
-            <input placeholder="" type="text" class="">
-            <label>Código Requerimiento</label>
+        <div class="input-field col s3 l3 right">
+            <input disabled value="Pendiente" id="disabled" type="text" class="validate">
+            <label for="disabled">Estado</label>
         </div>
     </div>
 
     <div class="row">
-        <div class="input-field col s5 l5">
+        <div class="col s4 l4">
+            <label for="">Area</label>
+                <select class="browser-default">
+                    <option value="" disabled selected></option>
+                    <option value="">Option 1</option>
+                    <option value="">Option 2</option>
+                    <option value="">Option 3</option>
+                </select>
+        </div>
+        <div class="col s4 l4">
+            <label for="">Centro de Costos</label>
+                <select class="browser-default">
+                    <option value="" disabled selected></option>
+                    <option value="">Option 1</option>
+                    <option value="">Option 2</option>
+                    <option value="">Option 3</option>
+                </select>
+        </div>
+
+        <div class="input-field col s3 l3">
             <input placeholder="" type="text" class="">
             <label for="">Proveedor</label>
         </div>
 
         <div class="input-field col s1 l1">
             <a class="btn-small"><i class="material-icons">search</i></a>
-        </div>
-
-        <div class="col s4 l4">
-            <label for="">Centro de Costos</label>
-            <select class="browser-default">
-                <option value="" disabled selected></option>
-                <option value="">Option 1</option>
-                <option value="">Option 2</option>
-                <option value="">Option 3</option>
-            </select>
-        </div>
-    
-        <div class="input-field col s2 l2">
-            <input disabled value="Pendiente" id="disabled" type="text" class="validate">
-            <label for="disabled">Estado</label>
         </div>
     </div>
 
@@ -104,8 +109,8 @@
     
 
       <div class="row" style="text-align: right;">
-        <a class="waves-effect waves-light btn" style="background-color:#888888;">Registro de Comprobante</a>
-        <a class="waves-effect waves-light btn" style="background-color:#888888;"><i class="material-icons">attach_file</i>Ver Adjuntos</a>
+        <a class="btn" style="background-color:#888888;">Registro de Comprobante</a>
+        <a class="btn" style="background-color:#888888;"><i class="material-icons">attach_file</i>Ver Adjuntos</a>
       </div>
 
       <div class="row" style="text-align: center;">

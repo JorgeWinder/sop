@@ -48,6 +48,10 @@ const routers = function(server){
         res.render('registro-orden-compra-servicios')
     })
 
+    router.get('/registro-requerimientos', function(req, res){
+        res.render('registro-requerimientos')
+    })
+
 
     // -------------------------------------------- //
 
