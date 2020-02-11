@@ -51,6 +51,10 @@ const routers = function(server){
     router.get('/registro-requerimientos', function(req, res){
         res.render('registro-requerimientos')
     })
+    
+    router.get('/registro-comprobante', function(req, res){
+        res.render('registro-comprobante')
+    })
 
 
     // -------------------------------------------- //
