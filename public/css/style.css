@@ -172,10 +172,16 @@ i{
 }
 
 
-header, main, footer {
+/* header, main, footer { */
+
+header, footer {
   padding-left: 250px;
 }
 
+
+.sidenav li.active {
+  background-color: #002272;
+}
 
 
 @media only screen and (max-width : 992px) {

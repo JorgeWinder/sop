@@ -20,7 +20,7 @@ const routers = function(server){
         res.render('registrar-movientos-almacen')
     })
 
-    router.get('/mantenimiento-cc-obras', function(req, res){
+    router.get('/mantenimiento-centro-de-costos-y-obras', function(req, res){
         res.render('mant-cc-obras')
     })
 
