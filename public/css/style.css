@@ -7,6 +7,7 @@ body {
   main {
     flex: 1 0 auto;
     background-color: #f3f3f3;
+    padding-left: 250px;
   }
 
   .card-login{  
@@ -196,7 +197,9 @@ header, footer {
 
 .btn{
   background-color: rgb(59, 78, 121); 
-  margin-right: 5%;
+  margin: 8px;
+  margin-top: 10%;
+  
 }
 
 .btn:hover{
