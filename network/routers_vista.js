@@ -16,10 +16,6 @@ const routers = function(server){
         res.render('login', {layout: 'acceso', script_name: 'acceso'})
     })
 
-    router.get('/registrar-movientos-almacen', function(req, res){
-        res.render('registrar-movientos-almacen')
-    })
-
     router.get('/mantenimiento-centro-de-costos-y-obras', function(req, res){
         res.render('mant-cc-obras')
     })
@@ -36,12 +32,12 @@ const routers = function(server){
         res.render('mant-proveedores')
     })
 
-    router.get('/centro-costos-obras', function(req, res){
-        res.render('centro-costos-obras')
+    router.get('/consulta-operaciones-obras', function(req, res){
+        res.render('consulta-op-obras')
     })
 
-    router.get('/detalle-centro-costos-obras', function(req, res){
-        res.render('detalle-centro-costos-obras')
+    router.get('/detalle-operaciones-obras', function(req, res){
+        res.render('detalle-op-obras')
     })
 
     router.get('/registro-orden-compra-servicios', function(req, res){
