@@ -36,16 +36,16 @@ const routers = function(server){
         res.render('consulta-op-obras')
     })
 
-    router.get('/detalle-operaciones-obras', function(req, res){
-        res.render('detalle-op-obras')
+    router.get('/registro-operaciones-centro-costos-obras', function(req, res){
+        res.render('reg-op-centrocostos-obras')
     })
 
-    router.get('/registro-orden-compra-servicios', function(req, res){
-        res.render('registro-orden-compra-servicios')
+    router.get('/consultar-orden-compra-servicios', function(req, res){
+        res.render('consultar-orden-compra-servicios')
     })
 
-    router.get('/registro-requerimientos', function(req, res){
-        res.render('registro-requerimientos')
+    router.get('/consultar-requerimientos', function(req, res){
+        res.render('consultar-requerimientos')
     })
     
     router.get('/registro-comprobante', function(req, res){
