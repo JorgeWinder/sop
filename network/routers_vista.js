@@ -37,7 +37,7 @@ const routers = function(server){
     })
 
     router.get('/registro-operaciones-centro-costos-obras', function(req, res){
-        res.render('reg-op-centrocostos-obras')
+        res.render('reg-op-centrocostos-obras', {script_name: 'reg-op-centrocostos-obras'})
     })
 
     router.get('/consultar-orden-compra-servicios', function(req, res){
