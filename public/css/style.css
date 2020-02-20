@@ -215,3 +215,15 @@ header, footer {
 .btn-small:hover{
   background-color: #585858;
 }
+
+.tabs .tab a{
+  color: #002272;
+}
+
+.tabs .tab a:hover{
+  color: #0034AC;
+}
+
+.tabs .tab a.active{
+  color: #0034AC;
+}
