@@ -6,7 +6,7 @@ body {
 
   main {
     flex: 1 0 auto;
-    background-color: #f3f3f3;
+    background-color: white;
     padding-left: 300px;
   }
 
@@ -42,9 +42,7 @@ background-color: #0034AC;
 }
 
 .input-field.col label {
-    
   height: auto !important;
-
 }
 
 /* label focus color */
@@ -53,7 +51,6 @@ background-color: #0034AC;
 }
 
 [type="checkbox"].filled-in:checked+span:not(.lever):after {
-  
   border: 2px solid #0034AC;
   background-color: #0034AC;
 }
@@ -70,7 +67,6 @@ background-color: #0034AC;
 
 .input-field-select > select {
   height: 54px;
-
 }
 
 .input-field input[type=text] , .input-field input[type=number] , .input-field input[type=date], .input-field input[type=password] {
@@ -87,7 +83,6 @@ background-color: #0034AC;
   transform: translateY(0px) scale(0.8);
   /* -webkit-transform-origin: 0 0; */
   transform-origin: 0 0;
-  
 }
 
 
@@ -134,7 +129,6 @@ background-color: #0034AC;
   left: 0;
   background-color: #0034AC;
   overflow-x: hidden;
-  
 }
 
 .background{
@@ -165,13 +159,11 @@ i{
 .sidenav .collapsible-body{
   background-color: #002272;
   padding-left: 75px;
-  
 }
 
 .sidenav .collapsible-header{
   padding: 18px 0 18px 20px;
 }
-
 
 /* header, main, footer { */
 
@@ -199,7 +191,6 @@ header, footer {
   background-color: rgb(59, 78, 121); 
   margin: 8px;
   margin-top: 10%;
-  
 }
 
 .btn:hover{
@@ -211,9 +202,13 @@ header, footer {
   margin-top: 26%;
 }
 
-
 .btn-small:hover{
   background-color: #585858;
+}
+
+.card{
+  background-color: rgb(243, 243, 243);
+  
 }
 
 .tabs .tab a{
@@ -222,8 +217,18 @@ header, footer {
 
 .tabs .tab a:hover{
   color: #0034AC;
+  background-color: rgb(243, 243, 243);
+
 }
 
 .tabs .tab a.active{
   color: #0034AC;
+  background-color: rgb(243, 243, 243);
+
+}
+
+#modal1{
+  margin-top: 12%;
+  margin-left: 35%;
+  width: 35%;
 }

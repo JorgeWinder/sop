@@ -41,11 +41,11 @@ const routers = function(server){
     })
 
     router.get('/consultar-orden-compra-servicios', function(req, res){
-        res.render('consultar-orden-compra-servicios')
+        res.render('consultar-orden-compra-servicios', {script_name: 'consultar-modal'})
     })
 
     router.get('/consultar-requerimientos', function(req, res){
-        res.render('consultar-requerimientos')
+        res.render('consultar-requerimientos', {script_name: 'consultar-modal'})
     })
     
     router.get('/registro-comprobante', function(req, res){

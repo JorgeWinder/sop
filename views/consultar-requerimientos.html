@@ -108,27 +108,53 @@
 
     
 
-      <div class="row" style="text-align: right;">
+    <div class="row" style="text-align: right;">
         <a href="./registro-comprobante" class="btn" style="background-color:#888888;">Registro de Comprobante</a>
         <a href="#modal1" class="btn modal-trigger" style="background-color:#888888;"><i class="material-icons">attach_file</i>Ver Adjuntos</a>
-        <button data-target="modal1" class="btn modal-trigger">Modal</button>
-
+        
         <div id="modal1" class="modal">
             <div class="modal-content">
-              <h4>Modal Header</h4>
-              <p>A bunch of text</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tipo de documento</th>
+                                <th>Número de documento</th>
+                                <th>Moneda</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        
+                            <tr>
+                                <td>Boleta</td>
+                                <td>B001-0045</td>
+                                <td>Dólares</td>
+                                <td>200.00</td>
+                                <td><a href="./registro-comprobante">Ver detalle</a></td>
+                            </tr>
+                            <tr>
+                                <td>Factura</td>
+                                <td>F005-3452</td>
+                                <td>Soles</td>
+                                <td>1300.00</td>
+                                <td><a href="./registro-comprobante">Ver detalle</a></td>
+                            </tr>
+                            <tr>
+                                <td>Factura</td>
+                                <td>F010-0065</td>
+                                <td>Soles</td>
+                                <td>600.00</td>
+                                <td><a href="./registro-comprobante">Ver detalle</a></td>
+                            </tr>
+                    </table>
+                </div>
             </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-            </div>
-          </div>
     </div>
 
-      <div class="row" style="text-align: center;">
-        <a class="btn">Nuevo</a>
-        <a class="btn">Guardar</a>
-        <a class="btn">Modificar</a>
-        <a class="btn">Eliminar</a>
-      </div>
+        <div class="row" style="text-align: center;">
+            <a class="btn">Nuevo</a>
+            <a class="btn">Guardar</a>
+            <a class="btn">Modificar</a>
+            <a class="btn">Eliminar</a>
+        </div>
 
 </div>
