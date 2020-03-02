@@ -138,7 +138,7 @@ background-color: #0034AC;
 .sidenav li a {
   height: 120%;
   text-decoration: none;
-  font-size: 16.5px;
+  font-size: 18px;
   color: #d1d1d1;
   display: block; 
   padding-left: 16px;
@@ -158,11 +158,11 @@ i{
 
 .sidenav .collapsible-body{
   background-color: #002272;
-  padding-left: 75px;
+  padding-left: 95px;
 }
 
 .sidenav .collapsible-header{
-  padding: 18px 0 18px 20px;
+  padding: 18px 0 18px 50px;
 }
 
 /* header, main, footer { */
