@@ -44,8 +44,8 @@ const routers = function(server){
         res.render('consultar-orden-compra-servicios', {script_name: 'consultar-modal'})
     })
 
-    router.get('/consultar-requerimientos', function(req, res){
-        res.render('consultar-requerimientos', {script_name: 'consultar-modal'})
+    router.get('/registrar-requerimientos', function(req, res){
+        res.render('reg-requerimientos', {script_name: 'consultar-modal'})
     })
     
     router.get('/registro-comprobante', function(req, res){
